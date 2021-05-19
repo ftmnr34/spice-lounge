@@ -59,12 +59,58 @@ header {
   position: absolute;
   top: 1rem;
   left: 0rem;
+  right: 0rem;
   padding-left: 7rem;
   padding-right: 7rem;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .contact {
+  color: white;
+  font-size: 1.2rem;
+  text-align: right;
+  text-shadow: 1px 1px 3px black;
+}
+header .contact .phone {
+  font-size: 2.2rem;
+  font-weight: 600;
 }
 
 /*HEADER*/
+/*FOOTER*/
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 7rem;
+  z-index: 1;
+}
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+footer a {
+  background-color: #f32c2c;
+  padding: 0.2rem 1rem;
+  border-radius: 0.2rem;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  height: 100%;
+  text-align: right;
+  box-shadow: 2px 2px 3px rgb(29, 25, 25);
+}
+footer i {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.212);
+}
+
+/*FOOTER*/
+
 /*SOCIAL MEDIA*/
 .social-media {
   list-style-type: none;
