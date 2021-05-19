@@ -25,6 +25,31 @@ body {
   left: 0;
   right: 0;
   z-index: 1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.navbar-dark .navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d6d6d6;
+}
+.navbar-dark .navbar-brand span {
+  color: #f32c2c;
+  padding: 0rem 0.2rem;
+}
+.navbar-nav {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.navbar-nav .nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-main {
+  top: 65vh;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
 }
 
 /*NAVBAR*/
